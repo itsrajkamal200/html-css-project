@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+h3 {
+  float: right;
+  color: white;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+.image {
+  background-image: url(https://images.pexels.com/photos/17168353/pexels-photo-17168353/free-photo-of-balloons-flying-in-cappadocia-in-morning.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.business {
+  padding-top: 70px;
+  margin-left: 50px;
+  padding: 40px 40px 50px 50px;
+}
+h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+p {
+  padding-top: 2rem;
+  color: white;
+  font-size: 22px;
+  white-space: 2px;
+  font-weight: 500;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+  background-color: aquamarine;
+  color: black;
+  padding: 4px 4px 4px 4px;
+  font-size: 24px;
+  overflow: hidden;
+  border-radius: 30px;
+  font-weight: 600;
+}
+h2 {
+  font-weight: 900;
+  color: black;
+  font-size: 40px;
+  white-space: 3px;
+}
+.protection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.button {
+  background-color: rgb(7, 7, 70);
+  color: beige;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: black;
+  color: antiquewhite;
+  transition: all 2s ease-out;
+}
+.laptop {
+  background-color: rgb(56, 216, 216);
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: black;
+}
+.startup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card2 {
+  background-color: rgb(5, 5, 90);
+  color: white;
+  text-align: center;
+}
+.card3 {
+  margin-left: 50px;
+}
+h2 span {
+  font-size: 40px;
+}
+.logo {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.imagesec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact {
+  background-color: rgb(8, 8, 74);
+  padding-top: 40px;
+}
+.contact p {
+  font-size: 22px;
+}
+.btn1 {
+  padding: 10px 288px;
+}
+.contact input {
+  color: green;
+  border: 4px solid green;
+  background-color: rgba(0, 0, 0, 0.201);
+  border-radius: 10px;
+}
+.contact textarea {
+  border: 4px solid green;
+  background-color: rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+}
